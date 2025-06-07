@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 # Load both models
-scratch = joblib.load("scratch_model.pkl")  # {'w': ..., 'b': ...}
-sk_model = joblib.load("sklearn_model.pkl")  # LinearRegression()
+scratch = joblib.load("model.pkl")  # {'w': ..., 'b': ...}
+sk_model = joblib.load("model_SL.pkl")  # LinearRegression()
 
 # Page setup
 st.set_page_config(page_title="Compare Carbon Emission Models", page_icon="⚖️", layout="centered")
