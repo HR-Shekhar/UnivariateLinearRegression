@@ -11,9 +11,9 @@ b = params["b"]
 st.title("Engine Size v/s CO2 emission")
 
 # Input
-x_input = st.number_input("Enter engine size:")
+x_input = st.number_input("Enter engine size(L):")
 
 # Prediction
 if st.button("Predict"):
     y_pred = w * x_input + b
-    st.success(f"CO2 emission by the engine: {y_pred:.2f}")
+    st.success(f"CO2 emission by the engine: {y_pred:.2f}g/km")
