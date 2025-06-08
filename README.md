@@ -4,49 +4,37 @@ First approach is the mathematical approach in which I wrote all the Cost funtio
 And then I went with the regular approach of using the scikit-learn library.
 I took the data from Kaggle, cleaned it and prepared it to use it for my Univariate Linear Regression.
 
-## 📊 Problem Statement
+# 📈 Univariate Linear Regression: From Scratch vs Scikit-learn
 
-Predict **CO2 Emissions (g/km)** based on **Engine Size (L)** using a univariate linear regression model.
+This project demonstrates a simple linear regression model trained from scratch using NumPy compared with the same model built using scikit-learn. The model predicts **Carbon Emissions** based on **Engine Size**.
 
-## 🛠️ Features
+## 📊 Model Details
 
-- Implemented Linear Regression from scratch
-- Used Gradient Descent for optimization
-- Visualized the model using Matplotlib
-- Evaluated the model using R² Score
+- **From Scratch:** Manual gradient descent for parameter optimization
+- **Scikit-learn:** `LinearRegression` from `sklearn.linear_model`
+- **Target:** CO₂ Emissions (g/km)
+- **Feature:** Engine Size (L)
 
-## 📦 Dataset
+## 🚀 Try the Web App
 
-- Dataset: [CO2 Emissions Dataset](https://www.kaggle.com/datasets/c/2692038)
-- Features: `Engine Size (L)`  
-- Target: `CO2 Emissions (g/km)`  
+Compare predictions live on Streamlit:
 
-## 🚀 Installation
+🔗 [Launch App](https://enginesizevsco2emission.streamlit.app/)  
+(Replace this with your actual link)
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/HR-Shekhar/UnivariateLinearRegression.git
-    cd UnivariateLinearRegression
-    ```
+## 📁 Files Included
 
-2. Install the required packages:
-    ```bash
-    pip install numpy pandas matplotlib
-    ```
+- `Univariate_Linear_Regression.ipynb`: Jupyter Notebook implementation
+- `app.py`: Streamlit app comparing both models
+- `requirements.txt`: Python dependencies
 
-## 🧑‍💻 Usage
+## 🔧 How to Run Locally
 
-1. Open and run the `UnivariateLinearRegression.ipynb` notebook using Jupyter Notebook or any IDE like Visual Studio Code.
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-2. Modify `lambda_`, `learning_rate`, and `iterations` as needed.
+## ✅ Built by
 
-3. Visualize the results using the plots.
-
-## 📈 Evaluation
-
-- **R² Score:** `0.72` *(example)*  
-- **Mean Squared Error:** `###`  
-
-## 🤝 Contributing
-
-Feel free to contribute or suggest improvements by opening an issue or a pull request.
+**Himanshu Shekhar** – Exploring machine learning principles.
