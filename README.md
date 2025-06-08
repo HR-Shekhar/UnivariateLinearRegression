@@ -19,8 +19,7 @@ This project demonstrates a simple linear regression model trained from scratch 
 
 Compare predictions live on Streamlit:
 
-🔗 [Launch App](https://enginesizevsco2emission.streamlit.app/)  
-(Replace this with your actual link)
+🔗 [Launch App](https://enginesizevsco2emission.streamlit.app)
 
 ## 📁 Files Included
 
